@@ -1,0 +1,9 @@
+language: cpp
+compiler: gcc
+
+script: 
+  - ./build_debug.sh
+  - ./travis_qmake_gcc_cpp98_debug_and_release
+  - ./clean.sh
+  - ./build_release.sh
+  - ./travis_qmake_gcc_cpp98_debug_and_release
