@@ -1,10 +1,8 @@
-CONFIG += console debug_and_release
-CONFIG -= app_bundle
-QT -= core gui
-TEMPLATE = app
+SOURCES += main.cpp
 
+# Debug and release mode
+CONFIG += console debug_and_release
 CONFIG(release, debug|release) {
   DEFINES += NDEBUG
 }
 
-SOURCES += main.cpp
