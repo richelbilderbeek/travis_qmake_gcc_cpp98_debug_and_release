@@ -1,7 +1,6 @@
 #include <cassert>
 #include <iostream>
 
-
 int main() {
   #ifdef NDEBUG
   std::cout << "Release mode" << '\n';

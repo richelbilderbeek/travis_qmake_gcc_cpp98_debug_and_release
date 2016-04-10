@@ -5,4 +5,3 @@ CONFIG += console debug_and_release
 CONFIG(release, debug|release) {
   DEFINES += NDEBUG
 }
-
